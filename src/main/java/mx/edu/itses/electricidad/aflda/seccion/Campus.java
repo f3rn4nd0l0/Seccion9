@@ -11,10 +11,22 @@ import java.util.List;
  * @author ferlo
  */
 public class Campus {
+
+
+
+
+
+    
     
         public static double calculateCenterX(List<Residencia> residencias) {
         double weightedSumX = 0;
         int totalOfPopulation = 0;
+
+
+
+
+
+            
 
         for (Residencia res : residencias) {
             weightedSumX += res.getCenterX() * res.getPopulation();
